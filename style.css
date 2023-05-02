@@ -1,0 +1,68 @@
+
+body{
+    padding-top: 3%;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+
+}
+
+
+
+form {
+    background-image: url(./image/Screenshot\ from\ 2023-04-02\ 01-24-43.png);
+    border: solid 2px blue;
+    border-radius: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 4% 4%;
+    color: white;
+    box-shadow: 13px 13px 15px 16px #c6f0cc;
+
+  }
+  
+  label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: 20px;
+  
+  }
+
+  input{
+    background-color: transparent;
+    color: white;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+
+
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 424px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+    
+  }
